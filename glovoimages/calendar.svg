@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="152" viewBox="0 0 152 152">
+    <defs>
+        <ellipse id="a" cx="75" cy="74.71" rx="75" ry="74.71"/>
+        <filter id="b" width="104.7%" height="104.7%" x="-2.3%" y="-2.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(1 1)">
+            <use fill="#FFF" xlink:href="#a"/>
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+            <use stroke="#ffe0a1" stroke-width="2" xlink:href="#a"/>
+        </g>
+        <path fill="#FEFEFE" d="M47.75 104.857a2.474 2.474 0 0 0 2.467 2.467h52.989a2.474 2.474 0 0 0 2.467-2.467V59.633H47.75v45.224z"/>
+        <path stroke="#5B5C5D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M47.75 104.857a2.474 2.474 0 0 0 2.467 2.467h52.989a2.474 2.474 0 0 0 2.467-2.467V59.633H47.75v45.224z"/>
+        <path fill="#FFC244" d="M50.217 48.467a2.474 2.474 0 0 0-2.467 2.467v9.905h57.923v-9.905a2.474 2.474 0 0 0-2.467-2.467H50.217z"/>
+        <path stroke="#595958" stroke-width="1.5" d="M103.206 48.467H50.217a2.474 2.474 0 0 0-2.467 2.467v9.905h57.923v-9.905a2.474 2.474 0 0 0-2.467-2.467z"/>
+        <path fill="#B5B4B0" d="M59.033 47.16v5.907a2.41 2.41 0 1 1-4.822 0V47.16a2.411 2.411 0 0 1 4.822 0"/>
+        <path stroke="#595958" stroke-width="1.5" d="M59.033 47.16v5.907a2.41 2.41 0 1 1-4.822 0V47.16a2.411 2.411 0 0 1 4.822 0z"/>
+        <path fill="#B5B4B0" d="M99.212 47.16v5.907a2.41 2.41 0 1 1-4.822 0V47.16a2.411 2.411 0 0 1 4.822 0"/>
+        <path stroke="#595958" stroke-width="1.5" d="M99.212 47.16v5.907a2.41 2.41 0 1 1-4.822 0V47.16a2.411 2.411 0 0 1 4.822 0z"/>
+        <path fill="#D8D8D8" d="M97.713 102.167H55.71a2.411 2.411 0 0 1-2.411-2.41V69.431a2.411 2.411 0 0 1 2.41-2.41h42.003a2.411 2.411 0 0 1 2.41 2.41v30.324a2.411 2.411 0 0 1-2.41 2.411"/>
+        <path stroke="#595958" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M97.713 102.167H55.71a2.411 2.411 0 0 1-2.411-2.41V69.431a2.411 2.411 0 0 1 2.41-2.41h42.003a2.411 2.411 0 0 1 2.41 2.41v30.324a2.411 2.411 0 0 1-2.41 2.411zM99.98 75.052H53.873M99.98 84.594H53.873M99.98 94.137H53.873M65.324 67.317v34.555M76.675 67.317v34.555M88.026 67.317v34.555"/>
+    </g>
+</svg>

@@ -1,0 +1,134 @@
+body {
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+#main {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.top {
+  width: 30%;
+}
+
+form {
+  margin-top: 30px;
+}
+
+
+.entry1 {
+  display: block;
+}
+
+.entry1 input {
+  width: 100%;
+  display: block;
+}
+
+
+.entry3 {
+  display: block;
+  margin-top: 20px;
+}
+
+.entry3 input {
+  width: 100%;
+  display: block;
+}
+
+label {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+input {
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeee;
+}
+
+.btn {
+  margin-top: 40px;
+  color: #fff;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  background: #000;
+  border-radius: 0;
+  padding: 10px 100px;
+}
+
+p {
+  margin-top: 40px;
+  font-size: 11px;
+}
+
+p.signup {
+  text-align: center;
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  #main {
+    margin-top: 50px;
+  }
+  .top {
+    width: 100%;
+  }
+  h4 {
+    margin-left: 0;
+  }
+  form {
+    width: 100%;
+  }
+  .names {
+    display: block;
+  }
+
+  .entry1 {
+    display: block;
+  }
+
+  .entry1 input {
+    width: 100%;
+    display: block;
+  }
+
+  .entry2 {
+    display: block;
+    margin-top: 20px;
+    margin-left: -1px;
+  }
+
+  .entry2 input {
+    width: 100%;
+    display: block;
+  }
+
+  .entry3 {
+    display: block;
+    margin-top: 20px;
+  }
+  .entry3 input {
+    width: 100%;
+    display: block;
+  }
+  .btn {
+    margin-top: 40px;
+    color: #fff;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    background: #000;
+    border-radius: 0;
+    padding: 10px 100px;
+  }
+  
+  p {
+    margin-top: 40px;
+    width: 100%;
+    font-size: 11px;
+}

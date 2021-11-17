@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glovo login</title>
+    <link rel="stylesheet" href="glovocss/bootstrap.min.css">
+    <link rel="stylesheet" href="glovocss/login.css">
+    
+</head>
+<body class="text-center">
+    <form method="post" action="glovo-login.php" class="shadow p-3 container-sm col-md-5 " style="border-radius: 15px; padding: 20px;">
+        <img src="./images/logo_auth.749bca8.svg" style="height:3rem; margin-bottom: 30px;margin-top:20px;"alt="">
+
+        <h2 class="text-start" style="font-weight: 500;font-size: 1.5rem">Login</h2>
+        <div class="input">
+          <div class="form-floating mb-3" style="margin-bottom:3rem; margin-top: 2rem; color:rgba(0,0,0,0.6)">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating" style="margin-bottom:2rem; margin-top: 2rem; color:rgba(0,0,0,0.6)">
+            <input  type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+            <label for="floatingPassword">Password</label>
+          </div>          
+        <button type="submit" style="padding: 5px 4rem; border:none; background-color: rgb(23, 170, 114); font-weight: 500;color: white; border-radius: 20px; margin-bottom: 2.5rem;margin-top:1rem;" name="btn-login">SUBMIT</button>
+        <div class="text-center hunter" style="padding-bottom: 30px; font-weight: 400; font-size: 0,8rem">
+            Don't have an account?
+            <div class="policy">
+                <a href="glovo.html">Signup here</a>
+                
+            </div>
+        </div>
+    </form>
+</body>
+</html>

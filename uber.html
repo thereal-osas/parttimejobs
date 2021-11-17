@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- SITE TITLE -->
+	<title>Uber</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- STYLESHEET CSS FILES -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="assets/css/uber.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!-- navigation section -->
+<section class="container-fluid custom-navbar" role="navigation">
+	<div class="container">
+	<div class="top-nav">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">Uber</a>
+		</div>
+		<div class="navbar-li">
+			<a href="#form" style="text-decoration: none;">Ride with Uber</a>
+		</div>
+	</div>
+	</div>
+</section>
+
+<!-- home section -->
+<section id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<h6>Get ready to drive with us</h6>
+				<p class="heading">Drive with Uber. Earn on your schedule.</p>
+			</div>
+			<div class="col-md-6 col-sm-6 sign">
+				<h4>Sign up now</h4>
+				
+				<form action="uber-signup.php" method="post" id="form">
+					
+					<div class="names">
+					<input type="text" placeholder="First Name" class="name1" name="firstname" required>
+					<span style="width: 5%;"></span>
+					<input type="text" placeholder="Last Name" class="name2" name="lastname" required>
+					</div>
+					<input type="email" placeholder="Email" class="txt" name="email" required>
+					<input type="password" placeholder="Password" class="txt" name="password" required>
+					<input type="tel" placeholder="Phone number" class="txt" name="phone" required>
+					<input type="text" placeholder="City you'll drive in" class="txt" name="city" required>
+					
+					<p class="terms">By proceeding, I agree to Uber's <a href="#">Terms of Use</a> and acknowledge that I have read the <a href="#">Privacy Policy.</a></p>
+
+					<p class="note">I also agree that Uber or its representatives may contact me by email, phone, or SMS (including by automated means) at the email address or number I provide, including for marketing purposes.</p>
+
+					<div class="login">
+					<input type="submit" placeholder="" value="Sign up to drive" class="btn" name="btn-save">
+            		<p>Already have an account? <a href="uber-login.html">Sign in</a></p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>		
+</section>
+
+<!-- footer section -->
+<footer>
+	<div class="container-lg">
+		<div class="row">
+			<div class="footer-logo">
+				<a href="#">Uber</a>
+			</div>
+			<div class="help">
+			<a href="#">
+				Visit Help Center
+			</a>
+			</div>
+		</div>
+		<div class="row list">
+			<div class="col-md-3 col-sm-3">
+				<h5>Company</h5>
+				<p>About us</p>
+				<p>Our offerings</p>
+				<p>Newsroom</p>
+				<p>Investors</p>
+				<p>Blog</p>
+				<p>Careers</p>
+				<p>AI</p>
+				<p>Gift cards</p>
+			</div>
+			<div class="col-md-3 col-sm-3">
+				<h6>Products</h6>
+				<p>Ride</p>
+				<p>Drive</p>
+				<p>Deliver</p>
+				<p>Eat</p>
+				<p>Uber for Business</p>
+				<p>Uber Freight</p>
+			</div>
+			<div class="col-md-3 col-sm-3">
+				<h6>Global citizenship</h6>
+				<p>Safety</p>
+				<p>Diversity and Inclusion</p>
+			</div>
+			<div class="col-md-3 col-sm-3">
+				<h6>Travel</h6>
+				<p>Airports</p>
+				<p>cities</p>
+			</div>
+			<div class="col-md-3 col-sm-3">
+				<span></span>
+			</div>
+		</div>
+
+
+		<div class="footer-area">
+		<div class="footer-icons">
+			<i class="fab fa-facebook-square" style="color: #fff; font-size: 16px;"></i>
+			<i class="fab fa-twitter" style="color: #fff; font-size: 16px; padding-left: 45px;"></i>
+			<i class="fab fa-youtube" style="color: #fff; font-size: 16px; padding-left: 45px;"></i>
+			<i class="fab fa-linkedin" style="color: #fff; font-size: 16px; padding-left: 45px;"></i>
+			<i class="fab fa-instagram" style="color: #fff; font-size: 16px; padding-left: 45px;"></i>
+
+			<i class="fas fa-map-marker-alt" style="color: #fff;; font-size: 16px;"> Lagos</i>
+		</div>
+
+		<div class="footer-stores">
+			<img src="images/playstore.svg" alt="" style="margin-right: 8px;">
+			<img src="images/appstore.svg" alt="">
+		</div>
+		</div>
+
+		<div class="copyright">
+			<div class="copyright-text">
+				<p>© 2021 Uber Technologies Inc.</p>
+			</div>
+			<div class="copyright-term">
+				<a href="#" style="padding-left: 0;">Privacy</a>
+				<a href="#">Accessibility</a>
+				<a href="#">Terms</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+<!-- JAVASCRIPT JS FILES -->	
+<script src="assets/uberjs/jquery.js"></script>
+<script src="assets/uberjs/bootstrap.min.js"></script>
+<script src="assets/uberjs/smoothscroll.js"></script>
+<script src="assets/uberjs/isotope.js"></script>
+<script src="asstest/uberjs/imagesloaded.min.js"></script>
+<script src="assets/uberjs/nivo-lightbox.min.js"></script>
+<script src="assets/uberjs/wow.min.js"></script>
+<script src="assets/uberjs/custom.js"></script>
+
+</body>
+</html>
